@@ -1,0 +1,134 @@
+<!DOCtYPE html>
+<html lang="en">
+  <head>
+     <title>Home</title>
+  <meta charset="utf-8">
+  <meta port="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+     <div class="header">
+       <h1 id="top">Enjoy your traveling with us</h1>
+	   <p>Provide great service for your safe journey</p>
+     </div>	 
+	 
+     <div class="topnav">
+	    <a href="home.html" title="Home page">Home</a>
+        <a href="pages/history.html" title="About how trains started in Sri Lanka">History</a>
+		<div class="dropdwn">
+		   <button class="dropbtn">
+		        Stations
+		   </button>
+           <div class="dropdwn-content">		   
+		       <a href="pages/colombo.html">Colombo</a>
+		       <a href="pages/kaluthara.html">Kalutara</a>
+			   <a href="pages/hikkaduwa.html">Hikkaduwa</a>
+		       <a href="pages/galle.html">Galle</a>
+		       <a href="pages/ella.html">Ella</a>
+			   <a href="pages/trinco.html">Trincomalee</a>
+		  </div>
+        </div>		  
+		<a href="pages/contact_us.html" title="Contact us">Contact us</a>
+		<a href="pages/Register.html" title="Register to our site">Register</a>
+		<a href="pages/sign_in.html" title="Login to our site">Sign In</a>		  		
+	 </div>
+	 
+	 <div>
+       <img class="mySlides" src="img/t1.jpg">
+       <img class="mySlides" src="img/t2.jpg">
+       <img class="mySlides" src="img/t3.jpg">
+       <img class="mySlides" src="img/t4.jpg">
+       <img class="mySlides" src="img/t5.jpg">
+	   <img class="mySlides" src="img/t6.jpg">
+	   <img class="mySlides" src="img/t7.jpg">
+	   <img class="mySlides" src="img/t8.jpg">
+     </div>
+     <script>
+       var myIndex = 0;
+       abc();
+	   
+      function abc() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) 
+        {
+           x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length)
+        {
+           myIndex = 1;
+        }    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(abc, 2000); 
+      }
+     </script>
+	 
+     <br>
+	
+	<h1 class="head1">Welcome To Sri Lankan Railway</h1>		  
+	<img src="img/search.jpeg" height="600px" width="100%">
+	 
+	<h1 class="head1">Find Greatness in your journey with Train Travelling</h1>
+	<p class="mar">
+		Sri Lanka is a tropical island found within the deep blue water of the Indian Ocean and near the Bay of Bengal.
+		The country is invested with over thousand miles of lovely golden beaches that square measure fringed with coconut
+		palms creating it as the best destination for a beach vacation.
+	</p>
+    <br>
+	 
+     <h3 class="head1"> Some attractive stations </h3> 
+     <img class="img1" src="img/idalgashinna.jpg" title="Idalgashinna Station">
+     <img class="img2" src="img/petta.jpg" title="Pettah Station">
+	 <img class="img3" src="img/ella.jpg" title="Ella Station">
+     <img class="img1" src="img/pattipola.jpg" title="Pattipola Station">
+	 <img class="img2" src="img/demodara.jpg" title="Demodara Station">
+     <img class="img3" src="img/bandarawela.jpg" title="Bandarawela Station">
+	 
+	 <br>	
+	
+	<table border=0>
+	  <tr>
+		<td width="50%">
+			<h2><center>MAIN TRAINS IN SRI LANKA</center></h2><br>
+			   <ul>
+                 <li>Udarata Manike - From Colombo fort to Badulla </li><br>
+                 <li>Yal devi - From Colombo fort to Jaffna</li><br>
+                 <li>Ruhunu kumari - From Colombo fort to Beliatta</li><br>
+                 <li>Rajarata Menike - From Colombo fort to Vavuniya</li><br>
+                 <li>Samudra Devi - From Colombo to Galle</li>
+         	   </ul>   
+		</td>
+		<td width="50%">
+		   <img src="img/train.jpeg" width="100%" height="80%">
+		</td>
+	  </tr>
+	</table>
+	
+    
+		  <div class="tablebo">
+			<h3 id="back">Quick Guide for your journey</h3>
+            <a href="info.html#ticket">How to buy tickets..</a><br><br>
+			<a href="info.html#hotel">Hotels nearby..</a><br><br>
+			<a href="info.html#places">Find places to visit..</a><br><br>
+	        <a href="info.html#details">Further Details and Time tables..</a><br>
+		  </div>
+	
+	 <p>
+	    <a href="#top"><img class="top1" src="img/arr2.png"> </a>
+	</p>
+	
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+
+	 <div class="footer">
+       <p><a href="https://www.facebook.com/" target="_blank"><img src="img/fb.jpg"></a>
+	   <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="img/insterg.jpg"></a>
+	   <a href="https://twitter.com/LOGIN/" target="_blank"><img src="img/twit.jpg"></a>
+	   <a href="https://www.linkedin.com/" target="_blank"><img src="img/link.png"></a>
+	   </p>
+     </div>
+  </body>
+</html>
